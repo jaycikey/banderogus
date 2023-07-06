@@ -200,3 +200,100 @@ body{
     z-index: 2;
     pointer-events: none;
 }
+.gus-main-page{
+    width: 50%;
+}
+
+@media screen and  (max-width:1170px) {
+    .wrapper{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        padding-bottom: 0;
+    }
+    .main-page-title{
+        font-size: 44px;
+    }
+    .main-page-text-container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-page-description{
+        margin-bottom: 0;
+    }
+    .gus-facts-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:1000px) {
+    .gus-main-page{
+        align-self: flex-end;
+    }
+    .main-page-text-container{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:780px) {
+    .gus-facts-description{
+        width: auto;
+    }
+    .main-page-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gus-main-page{
+        align-self: center;
+    }
+    .main-page-leftside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        width: 150px;
+    }
+    .main-page-text-container{
+        text-align: center;
+    }
+}
+@media screen and (max-width:580px) {
+    .form-container{
+        width: auto;
+        padding: 20px;
+    }
+    .form-field-input{
+        width: 350px;
+    }
+    .form-feild{
+        align-items: center;
+    }
+}
+@media screen and (max-width:580px) {
+    .form-container{
+        padding: 10px;
+    }
+    .form-field-input{
+        width: 280px;
+        height: 40px;
+    }
+    .gus-facts-title{
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .gus-facts-description{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .gus-facts{
+        width: 100%;
+    }
+    .gus-facts-img{
+        width: 100%;
+    }
+    .gus-main-page{
+        width: 100%;
+    }
+}
